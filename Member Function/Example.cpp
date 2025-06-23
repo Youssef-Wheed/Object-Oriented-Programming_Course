@@ -14,6 +14,7 @@ class Rectangle {
         }
 };
 
+
 int main() {
     // Creating an instance of Rectangle
     Rectangle rect;
