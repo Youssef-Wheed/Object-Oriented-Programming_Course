@@ -69,7 +69,7 @@ int main() {
     return 0;
 }
 
-```output
+**output**
 Book 1 Info:
 Title: Matilda
 Author: Roald Dahl
