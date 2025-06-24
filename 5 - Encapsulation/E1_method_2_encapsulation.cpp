@@ -24,7 +24,7 @@ public:
 int main()
 {
     Circle c1;      // Create an instance of Circle
-    c1.setvalue();  // Set the radius using the encapsulated method
+    c1.setValue();  // Set the radius using the encapsulated method
     c1.printArea(); // Print the area using the encapsulated method
 
     return 0;
