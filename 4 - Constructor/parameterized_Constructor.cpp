@@ -6,12 +6,22 @@ class Student
 public:
     string name;
     int age;
+    // Default constructor
+    Student()
+    {
+        name = "Unknown";
+        age = 0;
+        cout << "Default Constructor Called!\n"
+             << endl;
+    }
+
     // Parameterized constructor
     Student(string student_name, int student_age)
     {
         name = student_name;
         age = student_age;
-        cout << "Parameterized Constructor Called!\n" << endl;
+        cout << "Parameterized Constructor Called!\n"
+             << endl;
     }
     void displayInfo()
     {
