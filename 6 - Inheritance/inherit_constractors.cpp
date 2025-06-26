@@ -5,7 +5,8 @@ using namespace std;
 // When a derived class object is created, the base class constructor
 // is called first, followed by the derived class constructor
 // to ensure that the base part of the object is initialized before
-// the derived part.    
+// the derived part.  
+  
 class Animal {
 public:
     Animal() {
@@ -18,6 +19,7 @@ public:
 // When a Dog object is created, the Animal constructor is called first.
 // This ensures that the base class part of the Dog object is initialized before
 // the Dog class constructor is executed.
+
 class Dog : public Animal {
 public:
     Dog() {
