@@ -397,7 +397,7 @@ Employee Constructor
 | Hierarchical              | One parent, many children                       |
 | Multi-Level               | Chain of inheritance                            |
 
-> ✅ This documentation was created by **Youssef Wheed** to help others learn OOP Inheritance in a structured and clean way.
+>  *This documentation was created by **Youssef Wheed** to help others learn OOP Inheritance in a structured and clean way.*
 
 ---
 
